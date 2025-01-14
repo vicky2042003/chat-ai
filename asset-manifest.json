@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chat-ai/static/css/main.cc1e371c.css",
+    "main.js": "/chat-ai/static/js/main.7bcf0200.js",
+    "static/js/488.d27d3815.chunk.js": "/chat-ai/static/js/488.d27d3815.chunk.js",
+    "index.html": "/chat-ai/index.html",
+    "main.cc1e371c.css.map": "/chat-ai/static/css/main.cc1e371c.css.map",
+    "main.7bcf0200.js.map": "/chat-ai/static/js/main.7bcf0200.js.map",
+    "488.d27d3815.chunk.js.map": "/chat-ai/static/js/488.d27d3815.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc1e371c.css",
+    "static/js/main.7bcf0200.js"
+  ]
+}
