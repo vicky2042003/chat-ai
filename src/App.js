@@ -90,10 +90,10 @@ const App = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer YOUR_API_KEY`
+          Authorization: `Bearer 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`
         },
         body: JSON.stringify({
-          model: 'gpt-4',
+          model: 'gpt-4o-mini',
           messages: [...conversationHistory, { role: 'user', content }]
         })
       });
