@@ -1,0 +1,126 @@
+.app {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .app.dark-theme {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app.dark-theme .sidebar {
+    background-color: #2a2a2a;
+    border-right-color: #444;
+  }
+  
+  .sidebar-header {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .app.dark-theme .sidebar-header {
+    border-bottom-color: #444;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .new-chat-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .new-chat-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .app.dark-theme .main-content {
+    background-color: #1a1a1a;
+  }
+  
+  .welcome-screen {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .welcome-screen h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-screen p {
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .app.dark-theme .welcome-screen p {
+    color: #aaa;
+  }
+  
+  .theme-toggle {
+    padding: 1rem;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .app.dark-theme .theme-toggle {
+    border-top-color: #444;
+  }
+  
+  .theme-toggle button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fafafa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .app.dark-theme .theme-toggle button {
+    background-color: #444;
+    color: #f5f5f5;
+  }
+  
+  .theme-toggle button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .app.dark-theme .theme-toggle button:hover {
+    background-color: #555;
+  }
+  
